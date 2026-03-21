@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue'
+import SiteNav from '@/components/SiteNav.vue'
+import SiteFooter from '@/components/SiteFooter.vue'
 
 const testimonialStrip = ref(null)
 
@@ -15,43 +17,7 @@ function scrollTestimonials(direction) {
   <div
     class="min-h-screen bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container"
   >
-    <nav
-      class="fixed top-0 z-50 w-full bg-white/80 shadow-[0_12px_32px_rgba(45,52,53,0.06)] backdrop-blur-md dark:bg-slate-900/80"
-    >
-      <div class="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
-        <a class="font-headline text-2xl font-bold tracking-tighter text-sky-800 dark:text-sky-300" href="#"
-          >Little Feet Learning Academy</a
-        >
-        <div class="hidden items-center gap-8 md:flex">
-          <a
-            class="font-plus-jakarta-sans border-b-2 border-sky-600 pb-1 text-sm font-semibold tracking-tight text-sky-700 dark:text-sky-300"
-            href="#"
-            >Home</a
-          >
-          <a
-            class="font-plus-jakarta-sans text-sm font-semibold tracking-tight text-slate-500 transition-colors hover:text-sky-600 dark:text-slate-400"
-            href="#"
-            >Volunteer & Give</a
-          >
-          <a
-            class="font-plus-jakarta-sans text-sm font-semibold tracking-tight text-slate-500 transition-colors hover:text-sky-600 dark:text-slate-400"
-            href="#"
-            >Monthly Menu</a
-          >
-          <a
-            class="font-plus-jakarta-sans text-sm font-semibold tracking-tight text-slate-500 transition-colors hover:text-sky-600 dark:text-slate-400"
-            href="#"
-            >Contact</a
-          >
-        </div>
-        <button
-          type="button"
-          class="scale-95 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-on-primary shadow-lg shadow-primary/20 transition-opacity duration-200 hover:bg-gradient-to-br hover:from-primary hover:to-primary-container active:transition-transform"
-        >
-          Book a Tour
-        </button>
-      </div>
-    </nav>
+    <SiteNav />
 
     <main class="pt-24">
       <section class="mx-auto max-w-7xl px-6 py-12 md:py-24">
@@ -345,63 +311,6 @@ function scrollTestimonials(direction) {
       </section>
     </main>
 
-    <footer class="mt-20 w-full rounded-t-[3rem] bg-slate-100 dark:bg-slate-950">
-      <div class="mx-auto max-w-7xl px-12 py-16">
-        <div
-          class="flex flex-col items-center justify-between gap-8 md:flex-row md:items-center"
-        >
-          <span class="font-headline text-lg font-bold text-sky-800 dark:text-sky-400">
-            Little Feet Learning Academy
-          </span>
-          <div class="flex flex-wrap justify-center gap-8">
-            <a
-              class="font-plus-jakarta-sans text-sm text-slate-500 underline decoration-2 underline-offset-4 transition-all duration-300 hover:text-sky-600 dark:text-slate-400 dark:hover:text-sky-400"
-              href="#"
-              >Privacy Policy</a
-            >
-            <a
-              class="font-plus-jakarta-sans text-sm text-slate-500 underline decoration-2 underline-offset-4 transition-all duration-300 hover:text-sky-600 dark:text-slate-400 dark:hover:text-sky-400"
-              href="#"
-              >Staff Portal</a
-            >
-            <a
-              class="font-plus-jakarta-sans text-sm text-slate-500 underline decoration-2 underline-offset-4 transition-all duration-300 hover:text-sky-600 dark:text-slate-400 dark:hover:text-sky-400"
-              href="#"
-              >Careers</a
-            >
-            <a
-              class="font-plus-jakarta-sans text-sm text-slate-500 underline decoration-2 underline-offset-4 transition-all duration-300 hover:text-sky-600 dark:text-slate-400 dark:hover:text-sky-400"
-              href="#"
-              >Licensing Info</a
-            >
-          </div>
-          <div class="flex gap-4">
-            <a
-              class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-200 text-sky-800 transition-transform hover:scale-110 dark:bg-slate-800 dark:text-sky-400"
-              href="#"
-              aria-label="Social"
-            >
-              <span class="material-symbols-outlined">social_leaderboard</span>
-            </a>
-            <a
-              class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-200 text-sky-800 transition-transform hover:scale-110 dark:bg-slate-800 dark:text-sky-400"
-              href="#"
-              aria-label="Photos"
-            >
-              <span class="material-symbols-outlined">photo_camera</span>
-            </a>
-          </div>
-        </div>
-        <div
-          class="mt-10 border-t border-slate-200/60 pt-8 dark:border-slate-800/80"
-        >
-          <p
-            class="text-center text-sm text-slate-600 dark:text-slate-400 md:text-left font-plus-jakarta-sans"
-          >
-            ©2026 Little Feet Learning Academy. North Carolina Licensed Childcare Facility.
-          </p>
-        </div>
-      </div>
-    </footer>
+    <SiteFooter />
   </div>
 </template>
