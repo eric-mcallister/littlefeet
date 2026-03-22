@@ -35,16 +35,8 @@ function linkClass(isActive) {
         <RouterLink :class="linkClass(route.name === 'volunteer')" to="/volunteer"
           >Volunteer & Give</RouterLink
         >
-        <a
-          class="font-plus-jakarta-sans text-sm font-semibold tracking-tight text-slate-500 transition-colors hover:text-sky-600 dark:text-slate-400"
-          href="#"
-          >Monthly Menu</a
-        >
-        <a
-          class="font-plus-jakarta-sans text-sm font-semibold tracking-tight text-slate-500 transition-colors hover:text-sky-600 dark:text-slate-400"
-          href="#"
-          >Contact</a
-        >
+        <RouterLink :class="linkClass(route.name === 'menu')" to="/menu">Monthly Menu</RouterLink>
+        <RouterLink :class="linkClass(route.name === 'contact')" to="/contact">Contact</RouterLink>
       </div>
       <button
         type="button"

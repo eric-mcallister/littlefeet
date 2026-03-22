@@ -173,10 +173,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
                 placeholder="Your email address"
                 type="email"
               />
-              <button
-                class="rounded-full bg-primary px-10 py-4 font-bold text-on-primary transition-all hover:shadow-xl"
-                type="submit"
-              >
+              <button class="rounded-full bg-primary px-10 py-4 font-bold text-on-primary transition-all hover:shadow-xl" type="submit">
                 Subscribe
               </button>
             </form>

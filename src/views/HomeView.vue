@@ -15,8 +15,7 @@ function scrollTestimonials(direction) {
 
 <template>
   <div
-    class="min-h-screen bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container"
-  >
+    class="min-h-screen bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
     <SiteNav />
 
     <main class="pt-24">
@@ -254,7 +253,7 @@ function scrollTestimonials(direction) {
               <div class="min-w-[400px] snap-start rounded-xl bg-tertiary-fixed-dim p-12">
                 <span class="material-symbols-outlined mb-6 text-5xl opacity-30">format_quote</span>
                 <p class="mb-8 text-xl font-medium leading-relaxed text-on-tertiary-fixed">
-                  "Seeing my daughter thrive in the nature program was amazing. She's developed so
+                  "Seeing my daughter thrive in this childcare program was amazing. She's developed so
                   much confidence and social empathy here."
                 </p>
                 <div class="flex items-center gap-4">
