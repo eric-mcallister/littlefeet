@@ -5,7 +5,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
 
 <template>
   <div class="min-h-screen bg-surface font-body text-on-surface">
-    <SiteNav brand-name="Little Feet Academy" />
+    <SiteNav brand-name="Little Feet Learning Academy" />
 
     <main class="pt-24">
       <section class="mx-auto max-w-7xl px-8 py-20">
@@ -20,7 +20,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
                 Every Seed Needs a <span class="text-primary">Village</span> to Bloom.
               </h1>
               <p class="mb-10 max-w-xl text-lg leading-relaxed text-on-surface-variant">
-                At Little Feet Academy, community support is the gentle sunlight that helps our
+                At Little Feet Learning Academy, community support is the gentle sunlight that helps our
                 children grow. Your time, talent, and generosity allow us to provide enhanced
                 learning environments, organic nutrition programs, and specialized creative
                 workshops that go beyond the standard curriculum.
