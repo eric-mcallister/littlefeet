@@ -13,13 +13,10 @@ import SiteFooter from '@/components/SiteFooter.vue'
           <div class="relative">
             <div class="absolute -left-10 -top-10 h-40 w-40 rounded-full bg-tertiary-container/30 blur-3xl" />
             <div class="relative z-10">
-              <span
-                class="mb-6 inline-block rounded-full bg-tertiary-container px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-on-tertiary-container"
-                >Our Community Heart</span
-              >
-              <h1
-                class="mb-8 font-headline text-5xl font-extrabold leading-[1.1] text-on-surface md:text-6xl"
-              >
+              <span class="mb-6 inline-block rounded-full bg-tertiary-container px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-on-tertiary-container">
+                Our Community Heart
+              </span>
+              <h1 class="mb-8 font-headline text-5xl font-extrabold leading-[1.1] text-on-surface md:text-6xl">
                 Every Seed Needs a <span class="text-primary">Village</span> to Bloom.
               </h1>
               <p class="mb-10 max-w-xl text-lg leading-relaxed text-on-surface-variant">
@@ -29,37 +26,27 @@ import SiteFooter from '@/components/SiteFooter.vue'
                 workshops that go beyond the standard curriculum.
               </p>
               <div class="flex flex-wrap gap-4">
-                <a
-                  class="signature-gradient rounded-full px-8 py-4 font-bold text-on-primary shadow-lg transition-all hover:shadow-xl"
-                  href="#donate"
-                  >Make a Donation</a
-                >
-                <a
-                  class="rounded-full bg-surface-container-highest px-8 py-4 font-bold text-on-surface-variant transition-all hover:bg-surface-dim"
-                  href="#newsletter"
-                  >View Opportunities</a
-                >
+                <a class="signature-gradient rounded-full px-8 py-4 font-bold text-on-primary shadow-lg transition-all hover:shadow-xl" href="#donate">
+                  Make a Donation
+                </a>
+                <a class="rounded-full bg-surface-container-highest px-8 py-4 font-bold text-on-surface-variant transition-all hover:bg-surface-dim" href="#newsletter">
+                  View Opportunities
+                </a>
               </div>
             </div>
           </div>
           <div class="relative">
-            <div
-              class="rotate-2 overflow-hidden rounded-xl border-8 border-white shadow-2xl transition-transform duration-500 hover:rotate-0"
-            >
+            <div class="rotate-2 overflow-hidden rounded-xl border-8 border-white shadow-2xl transition-transform duration-500 hover:rotate-0">
               <img
                 alt="Smiling diverse children playing together"
                 class="h-[500px] w-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIPBMYcuk9s0Y8ww4aOAhwIr7qFmJPGQ4FT4LyuFfnEMHnjZOVgBPTOcpqevHfCgsgqlKHxuq2ryEfFYJDltP2Pymvs0Pg1mSULTHon2uQnnW4IWWoZ2NZRYTFs5UNsBBwgjT519KhZEdRfNhqQ3HH0rwh4tj_J2tXtKrRqLOOQvMAX6V13NL3OqGVMSUg0Ncyphz_MEv6HkjHnolYEWSeif89SO5gHc-BYUSmYJ0APwJjAUGgFgi5C7fczpY3bOvhIP0PRzdoAHI"
               />
             </div>
-            <div
-              class="glass-card absolute -bottom-6 -right-6 hidden max-w-xs rounded-lg p-6 shadow-xl md:block"
-            >
+            <div class="glass-card absolute -bottom-6 -right-6 hidden max-w-xs rounded-lg p-6 shadow-xl md:block">
               <div class="mb-3 flex items-center gap-4">
                 <div class="rounded-full bg-secondary-container p-2 text-on-secondary-container">
-                  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1"
-                    >favorite</span
-                  >
+                  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">favorite</span>
                 </div>
                 <span class="text-sm font-bold uppercase tracking-tighter">Your Impact</span>
               </div>
@@ -83,8 +70,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
           </div>
           <div class="grid gap-8 md:grid-cols-3">
             <div
-              class="group relative overflow-hidden rounded-xl bg-surface-container-lowest p-10 shadow-sm transition-shadow hover:shadow-md"
-            >
+              class="group relative overflow-hidden rounded-xl bg-surface-container-lowest p-10 shadow-sm transition-shadow hover:shadow-md">
               <div class="absolute right-0 top-0 h-24 w-24 rounded-bl-full bg-primary/20" />
               <div class="mb-6 text-primary">
                 <span class="material-symbols-outlined text-5xl">menu_book</span>
@@ -95,20 +81,13 @@ import SiteFooter from '@/components/SiteFooter.vue'
                 Provides five new hardback picture books or diverse learning materials for our
                 literacy corners.
               </p>
-              <button
-                type="button"
-                class="w-full rounded-full border-2 border-primary py-3 font-bold text-primary transition-all group-hover:bg-primary group-hover:text-on-primary"
-              >
+              <button type="button" class="w-full rounded-full border-2 border-primary py-3 font-bold text-primary transition-all group-hover:bg-primary group-hover:text-on-primary">
                 Donate $50
               </button>
             </div>
 
-            <div
-              class="relative z-10 scale-105 rounded-xl border-t-4 border-primary bg-white p-10 shadow-[0_20px_50px_rgba(0,101,148,0.1)]"
-            >
-              <div
-                class="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-1 text-xs font-bold uppercase tracking-widest text-on-primary"
-              >
+            <div class="relative z-10 scale-105 rounded-xl border-t-4 border-primary bg-white p-10 shadow-[0_20px_50px_rgba(0,101,148,0.1)]">
+              <div class="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-1 text-xs font-bold uppercase tracking-widest text-on-primary">
                 Most Impactful
               </div>
               <div class="mb-6 text-secondary">
@@ -120,17 +99,12 @@ import SiteFooter from '@/components/SiteFooter.vue'
                 Funds interactive science kits, magnifying glasses, and sensory table supplies for
                 one classroom for a semester.
               </p>
-              <button
-                type="button"
-                class="signature-gradient w-full rounded-full py-4 font-bold text-on-primary shadow-lg transition-all duration-200 hover:scale-[1.02] hover:shadow-xl hover:brightness-110 active:scale-[0.98]"
-              >
+              <button type="button" class="signature-gradient w-full rounded-full py-4 font-bold text-on-primary shadow-lg transition-all duration-200 hover:scale-[1.02] hover:shadow-xl hover:brightness-110 active:scale-[0.98]">
                 Donate $250
               </button>
             </div>
 
-            <div
-              class="group relative overflow-hidden rounded-xl bg-surface-container-lowest p-10 shadow-sm transition-shadow hover:shadow-md"
-            >
+            <div class="group relative overflow-hidden rounded-xl bg-surface-container-lowest p-10 shadow-sm transition-shadow hover:shadow-md">
               <div class="absolute right-0 top-0 h-24 w-24 rounded-bl-full bg-tertiary/20" />
               <div class="mb-6 text-tertiary">
                 <span class="material-symbols-outlined text-5xl">home_repair_service</span>
@@ -141,27 +115,20 @@ import SiteFooter from '@/components/SiteFooter.vue'
                 Helps fund classroom improvements and ongoing facility maintenance—keeping our
                 spaces safe, comfortable, and ready for learning every day.
               </p>
-              <button
-                type="button"
-                class="w-full rounded-full border-2 border-tertiary py-3 font-bold text-tertiary transition-all group-hover:bg-tertiary group-hover:text-on-tertiary"
-              >
+              <button type="button" class="w-full rounded-full border-2 border-tertiary py-3 font-bold text-tertiary transition-all group-hover:bg-tertiary group-hover:text-on-tertiary">
                 Donate $100
               </button>
             </div>
           </div>
 
-          <div
-            class="mt-16 flex flex-col items-center justify-between gap-6 rounded-lg bg-surface-container-highest p-8 md:flex-row"
-          >
+          <div class="mt-16 flex flex-col items-center justify-between gap-6 rounded-lg bg-surface-container-highest p-8 md:flex-row">
             <div>
               <p class="mb-1 text-lg font-bold">Looking to contribute a different amount?</p>
               <p class="text-sm text-on-surface-variant">
                 Every dollar makes a difference in a child's educational journey.
               </p>
             </div>
-            <div
-              class="flex w-full items-center rounded-full border-2 border-outline-variant/20 bg-surface-container-lowest px-6 py-2 md:w-auto"
-            >
+            <div class="flex w-full items-center rounded-full border-2 border-outline-variant/20 bg-surface-container-lowest px-6 py-2 md:w-auto">
               <span class="mr-2 text-on-surface-variant">$</span>
               <input
                 class="w-32 border-none bg-transparent font-bold text-on-surface focus:ring-0"
