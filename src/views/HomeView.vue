@@ -62,8 +62,8 @@ function scrollTestimonials(direction) {
             <div class="relative rotate-2 overflow-hidden rounded-xl shadow-2xl">
               <img
                 class="aspect-[4/5] w-full object-cover"
-                alt="Happy children playing with wooden blocks with teacher"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxh1llpyFdxo11jexxHfZmqa5hKYy7DRT9KfvQl8i8PJ8yrswEKKRUQBGjCU_-Y46n2mouI4j2gIT-3vnooKIxXx-KcN5Wcr8Qzu5MMBmHlB4L3Y0HhKFiI0wxBwAj2yZHSn2tzeczeNND4AmreubiE9NYQ3ZtE34RD-myQQTHcuEHlWogQ3XITzQ5GQ3dZafOEJ4wEzT1-3i1ZpfPry12K1wL1UAW992nVw4cKevrgBzmTzYt3EV_h90EcmfeNUHE8SSNUtzD4_k"
+                alt="Two young boys smiling together at Little Feet Learning Academy"
+                src="/imgs/brother_2.jpg"
               />
               <div
                 class="absolute bottom-6 left-6 right-6 rounded-lg bg-white/80 p-6 shadow-lg backdrop-blur-md"
